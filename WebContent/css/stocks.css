@@ -1,0 +1,23 @@
+.header {
+	font-weight: bold;
+}
+
+.stocks table tr td {
+	border: 1px solid black;
+	margin: 0px;
+	background: #c7fcff;
+}
+
+.stocks table {
+	background: #67d1ff;
+}
+
+.expensive {
+	color: #d60f13;
+	font-weight: bold;
+}
+
+.cheap {
+	color: green;
+	font-style: italic;
+}

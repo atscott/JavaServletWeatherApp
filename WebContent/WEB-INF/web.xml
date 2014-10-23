@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>Lab7MVC</display-name>
+  <welcome-file-list>
+    <welcome-file>template.jsp</welcome-file>
+
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>CmdServlet</display-name>
+    <servlet-name>CmdServlet</servlet-name>
+    <servlet-class>controller.CmdServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CmdServlet</servlet-name>
+    <url-pattern>/CmdServlet</url-pattern>
+  </servlet-mapping>
+    <servlet>
+    <description></description>
+    <display-name>QuoteServlet</display-name>
+    <servlet-name>QuoteServlet</servlet-name>
+    <servlet-class>controller.QuoteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>QuoteServlet</servlet-name>
+    <url-pattern>/QuoteServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

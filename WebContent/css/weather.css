@@ -1,0 +1,43 @@
+.image-cell {
+	width:50px;
+}
+
+.forecast {
+	border: groove;
+	border-style: double;
+	margin-top: 20px;
+	display: block;
+	background: #87a9da;
+	width: 400px;
+	
+}
+
+.forecast table tr td{
+	background-color: #87a9da;
+	border: 0px;
+	color:black;
+}
+
+.forecast table{
+	border:0px;
+	color:black;
+}
+
+.date {
+	font-family: sans-serif;
+	display: inline-block;
+	background: #d1d1d1;
+	font-weight: bold;
+	border-style: solid;
+	border-width: 1pt;
+	border-top: none;
+	border-left: none;
+	border-bottom-right-radius: 10px;
+	padding-right: 10px;
+	padding-left: 5px;
+}
+
+#Identification {
+	font-weight: bold;
+	font-size: 20pt;
+}
